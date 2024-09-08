@@ -1,0 +1,21 @@
+{
+  "name": "expense-tracker-cli",
+  "version": "1.0.0",
+  "description": "\"https://roadmap.sh/projects/expense-tracker\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "expense-tracker-cli": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "conf": "^13.0.1"
+  }
+}
