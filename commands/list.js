@@ -10,12 +10,12 @@ function list() {
       //user has expenses added
       console.log(chalk.blue.bold("Here are your expenses :"));
       console.log(
-        chalk.greenBright.bold("ID    Date    Description     Amount")
+        chalk.greenBright.bold("ID      Date        Description     Amount")
       );
       expenseList.forEach((expense, _) => {
         console.log(
           chalk.greenBright(
-            `${expense.id}      ${expense.date} ${expense.description}  ${expense.amount}`
+            `${expense.id}      ${expense.date}  ${expense.description}  ${expense.amount}`
           )
         );
       });
