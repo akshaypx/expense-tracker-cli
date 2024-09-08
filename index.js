@@ -8,6 +8,7 @@ program.command("list").description("List all the expenses").action(list);
 program
   .command("summary")
   .description("Total sum of all the expenses")
+  .option("-m, --month <month>", "Month number to get total expense")
   .action(summary);
 program
   .command("add")
